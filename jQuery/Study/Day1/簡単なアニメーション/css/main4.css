@@ -1,0 +1,158 @@
+/*
+ * Base
+ */
+
+html {
+    font-family: "Helvetica Neue", "Arial", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+body {
+  background-color: #363535;
+  color: #ffffff;
+  text-align: center;
+}
+
+#info {
+    margin: 20px 0 0 0;
+    padding: 0;
+    background-color: #db3434;
+    font-weight: bold;
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    height: 50px;
+}
+
+#info2 {
+  margin: 5px 0 0 0;
+  padding: 0;
+  background-color: #998352;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+}
+
+#info3 {
+  margin: 5px 0 0 0;
+  padding: 0;
+  background-color: #579900;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+}
+
+#info4 {
+  margin: 5px 0 0 0;
+  padding: 0;
+  background-color: #009921;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+}
+
+#info5 {
+  margin: 5px 0 0 0;
+  padding: 0;
+  background-color: #009980;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+}
+
+#info6 {
+  margin: 5px 0 0 0;
+  padding: 0;
+  background-color: #006e99;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+}
+
+#info7 {
+  margin: 5px 0 0 0;
+  padding: 0;
+  background-color: #003d99;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+}
+
+#info8 {
+  margin: 5px 0 0 0;
+  padding: 0;
+  background-color: #0f0099;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+}
+
+#info9 {
+  margin: 5px 0 0 0;
+  padding: 0;
+  background-color: #540099;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+}
+
+#info10 {
+  margin: 5px 0 0 0;
+  padding: 0;
+  background-color: #7f0099;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+}
+
+#info11 {
+  margin: 5px 0 0 0;
+  padding: 0;
+  background-color: #99008c;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+}
+
+#info12 {
+  margin: 5px 0 0 0;
+  padding: 0;
+  background-color: #990066;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+}
+
+#info13 {
+  margin: 5px 0 0 0;
+  padding: 0;
+  background-color: #99004d;
+  font-weight: bold;
+  font-size: 40px;
+  color: #fff;
+  text-align: center;
+  height: 50px;
+}
