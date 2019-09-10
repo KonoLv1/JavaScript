@@ -1,6 +1,6 @@
 /*body*****************************************************/
 body {
-  background-color: #f8dce0;
+  background-color: #06fd75;
   background-image: url("../images/back-night.jpg");
   background-size: 100% ;
   background-attachment:fixed;
@@ -80,7 +80,7 @@ div#migiheadar{
 }
 /*イベントディブ（下に下がる）*/
 div.ibento {
-  background-color: #004aad;
+  background-color: #ff0000;
   clear:left;
   float: right;
   width: 200px;
@@ -122,7 +122,7 @@ top:0;
 /*スライドショー後ろ*/
 div.ura{
   margin-top: 80px;
-  background-color: #bbb;
+  background-color: rgb(15, 15, 15);
   box-shadow:0px 3px 20px;
 }
 
@@ -186,7 +186,7 @@ div.midasigurume img{
 div.midasiibento{
   margin: 0;
   padding: 0px 0px 0px 10px;
-  background-color: #004ea5;
+  background-color: #ff00ff;
   border-radius: 4px 4px 0px 0px;
 }
 div.midasiibento img{
