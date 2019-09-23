@@ -9,16 +9,52 @@
         <header>
             <nav>
                 <ul>
-                    <li>メニュー１</li>
-                    <li>メニュー２</li>
+                    <li><a href="index.html" id="myForm">トップ</a></li>
+                    <li><a>観光地</a></li>
+                    <li><a>飲食店</a></li>
+                    <li><a>おすすめ</a></li>
+                    <li><a>アクセス</a></li>
                 </ul>
             </nav>
         </header>
-        <h1>現在制作中</h1>
-        <footer>
-            <p><small>&copy Copyright 2019 Junichi Koyama</small></p>
-        </footer>
+            <div class="bg-slider">
+                    <h1 class="bg-slider-title">タイトル</h1>
+            </div>
+            <div class="hoge1">
+                <h1>現在制作中</h1>
+            </div>
+
+            <footer>
+                <p><small>&copy Copyright 2019 Junichi Koyama</small></p>
+            </footer>
     </body>
 
+    <script type="text/javascript" src="js/jQuery.js"></script>
 
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/3.0.0/jquery.min.js"></script>
+    <script src="js/jquery.bgswitcher.js"></script>
+    <script>
+    jQuery(function($) {
+      $('.bg-slider').bgSwitcher({
+       images: ['images/back1.jpg','images/back2.jpg','images/back3.jpg'], 
+    　 interval: 3000,
+    　 loop: true,
+    　 shuffle: true,
+    　 effect: "fade", // fade,blind,clip,slide,drop,hide
+    　 duration: 500,
+    　 easing: "swing" // linear,swing
+       });
+      });
+    </script>
+
+
+
+
+
+
+
+
+    <script type="text/javascript" src="js/main.js"></script>
 </html>

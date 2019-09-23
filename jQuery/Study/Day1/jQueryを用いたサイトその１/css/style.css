@@ -1,0 +1,54 @@
+
+body{
+/*  全体を中央ぞろえ    */
+    width:900px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+nav{
+
+/* nav li の横並びが以降に影響しないために横並びなどを解除する  */
+    overflow: hidden;
+}
+
+nav li{
+/*  リストのクロテンを無くす*/    
+    list-style: none;
+/*　メニューごとの幅を設定  */
+    width: 140px;
+/*　文字の並びを中央揃え    */
+    text-align: center;
+/*　メニュー背景を黒に  */
+    background-color: #333;
+/* メニューを横並びにする   */
+    float: left;
+}
+
+/*　メニューの文字設定　*/
+nav li a {
+/*  リストのクロテン解除    */
+    text-decoration: none;
+/*　文字の色を設定  */
+    color: #eeeeee;
+/*  文字の太さ設定  */
+    font-weight: bold;
+}
+
+
+/* 外部 */
+.bg-slider {
+    width: 600px;
+    height: 400px;
+    background-position:center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .bg-slider-title{
+    text-align:center;
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+  }
