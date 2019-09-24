@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+header{
+           width:900px;
+           margin-right: auto;
+           margin-left: auto;
+}
+body{
+    /*  全体を中央ぞろえ    */
+       /* width:900px;*/
+        margin-right: auto;
+        margin-left: auto;
+        background-image: url(../images/back1.jpg);
+        background-size: cover;
+    
+       /* background-color: #333;*/
+    }
+    
+    nav{
+    
+    /* nav li の横並びが以降に影響しないために横並びなどを解除する  */
+        overflow: hidden;
+    }
+    
+    nav li{
+    /*  リストのクロテンを無くす*/    
+        list-style: none;
+    /*　メニューごとの幅を設定  */
+        width: 140px;
+    /*　文字の並びを中央揃え    */
+        text-align: center;
+    /*　メニュー背景を黒に  */
+        background-color: #333;
+    /* メニューを横並びにする   */
+        float: left;
+    }
+    nav li :hover{
+        color: #f55;
+    }
+    
+    /*　メニューの文字設定　*/
+    nav li a {
+    /*  リストのクロテン解除    */
+        text-decoration: none;
+    /*　文字の色を設定  */
+        color: #eeeeee;
+    /*  文字の太さ設定  */
+        font-weight: bold;
+    }
+
+    .contents{
+        width:900px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    footer{
+        background-color: #333;
+        color: #eeeeee;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;   
+    }
+
+    .food{
+        float: right;
+    }
+
+
+    .inline-block_1 {
+        width: 200px;
+        height: 350px;
+        display: inline-block;      /* インラインブロック要素にする */
+        background: rgba(20,20,20,0.3);
+        padding: 10px;              /* 余白指定 */
+    }
+
+
+    .start {
+        background: #FFF;
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        z-index: 9000;
+    }
+    .start p {
+        position: fixed;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        display: none;
+        z-index: 9999;
+        width: 280px;
+    }
+
+
+/*
+ * Slideshow
+ */
+
+.slideshow {
+    background-color: rgb(0, 0, 0);
+    /*
+    height: 465px;
+    min-width: 960px;
+    */
+    height: 465px;
+    min-width: 960px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slideshow-slides {
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    /* left は JavaScript で指定 */
+}
+.slideshow-slides .slide {
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    /* left は JavaScript で指定 */
+}
+.slideshow-slides .slide img {
+    left: 50%;
+    margin-left: -800px;
+    position: absolute;
+}
+
+.slideshow-nav a,
+.slideshow-indicator a {
+    background-color: rgba(0, 0, 0, 0); /* for IE9 */
+    overflow: hidden;
+}
+.slideshow-nav a:before,
+.slideshow-indicator a:before {
+    content: url(../images/sprites.png);
+    display: inline-block;
+    font-size: 0;
+    line-height: 0;
+}
+
+.slideshow-nav a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 72px;
+    height: 72px;
+    margin-top: -36px;
+}
+.slideshow-nav a.prev {
+    margin-left: -480px;
+}
+.slideshow-nav a.prev:before {
+    margin-top: -20px;    
+}
+.slideshow-nav a.next {
+    margin-left: 408px;
+}
+.slideshow-nav a.next:before {
+    margin-left: -80px;
+    margin-top: -20px;
+}
+.slideshow-nav a.disabled {
+    display: none;
+}
+
+.slideshow-indicator {
+    bottom: 30px;
+    height: 16px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+}
+.slideshow-indicator a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.slideshow-indicator a.active {
+    cursor: default;
+}
+.slideshow-indicator a:before {
+    margin-left: -110px;
+}
+.slideshow-indicator a.active:before {
+    margin-left: -130px;
+}
+
+/* JavsScript 無効時 */
+.no-js .slideshow {
+    height: auto;
+}
+.no-js .slideshow-slides {
+    height: auto;
+    position: static;
+}
+.no-js .slideshow-slides .slide {
+    display: block;
+    height: auto;
+    position: static;
+}
+.no-js .slideshow-slides .slide img {
+    margin: auto;
+    position: static;
+}
+.no-js .slideshow-nav,
+.no-js .slideshow-indicator {
+    display: none;
+}
